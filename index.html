@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Panificadora Nosso Pão</title>
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="logo-section">
+            <img src="./images/LOGO.png" alt="Logo da Panificadora Nosso Pão" class="logo">
+            <h1>PANIFICADORA<br>NOSSO PÃO</h1>
+            <p class="tagline">Comida feita com ingredientes à base de plantas e muito amor</p>
+        </div>
+        
+        <div class="menu-section">
+            <a href="#" id="btn-cardapio" class="menu-button">Cardápio</a>
+            <div class="menu-section">
+                <a href="https://wa.me/SEU_NUMERO_COM_DDI?text=Olá,%20gostaria%20de%20mais%20informações" 
+                   id="btn-fale-conosco" class="menu-button" target="_blank">Fale Conosco</a>
+            </div>
+        </div>
+        <div class="social-media">
+            <!-- Facebook -->
+            <a href="https://www.facebook.com/nomedapagina" target="_blank">
+                <img src="./images/facebook.PNG" alt="Facebook">
+            </a>
+            <!-- Instagram -->
+            <a href="https://www.instagram.com/nomedapagina" target="_blank">
+                <img src="./images/instagram.PNG" alt="Instagram">
+            </a>
+            <a href="https://www.twitter.com/nomedapagina" target="_blank">
+                <img src="./images/twitter.PNG" alt="Twitter">
+            </a>
+        </div>
+    </div>
+    
+
+    <div id="cardapio-container" class="container-cardapio">
+        <div class="cardapio-content">
+            <h2>NOSSO CARDÁPIO</h2>
+            <div class="cardapio-botoes">
+                <button class="item-cardapio" onclick="mostrarImagem('./images/pao-frances.png')">Pão Francês 🥖</button>
+                <button class="item-cardapio" onclick="mostrarImagem('./images/croissant.png')">Croissant 🥐</button>
+                <button class="item-cardapio" onclick="mostrarImagem('./images/donuts.png')">Donuts 🍩</button>
+                <button class="item-cardapio" onclick="mostrarImagem('./images/pastel.png')">Pastel 🥟</button>
+                <button class="item-cardapio" onclick="mostrarImagem('./images/pao-de-queijo.png')">Pão de Queijo 🧀</button>
+                <button class="item-cardapio" onclick="mostrarImagem('./images/bolinho-de-carne.png')">Bolinho de Carne 🍖</button>
+                <button class="item-cardapio" onclick="mostrarImagem('./images/cafe-com-leite.png')">Café com Leite ☕🥛</button>
+                <button class="item-cardapio" onclick="mostrarImagem('./images/suco.png')">Suco Natural 🥤</button>
+                <button class="item-cardapio" onclick="mostrarImagem('./images/bauru.png')">Bauru 🥪</button>
+            </div>
+            <button id="btn-fechar">Fechar</button>
+        </div>
+    </div>
+    
+    <div id="imagem-modal" class="imagem-modal" style="display: none;">
+        <span class="fechar" onclick="fecharImagem()">&times;</span>
+        <img id="imagem-exibida" class="imagem-conteudo">
+    </div>
+       
+         </ul>
+            <button id="btn-fechar">Fechar</button>
+        </div>
+    </div>
+
+    <script src="./js/script.js"></script>
+</body>
+</html>

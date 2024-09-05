@@ -1,0 +1,38 @@
+[
+    {
+        "nome": "Pão Francês 🥖",
+        "imagem": "./images/pao-frances.png"
+    },
+    {
+        "nome": "Croissant 🥐",
+        "imagem": "./images/croissant.png"
+    },
+    {
+        "nome": "Donuts 🍩",
+        "imagem": "./images/donuts.png"
+    },
+    {
+        "nome": "Pastel 🥟",
+        "imagem": "./images/pastel.png"
+    },
+    {
+        "nome": "Pão de Queijo 🧀",
+        "imagem": "./images/pao-de-queijo.png"
+    },
+    {
+        "nome": "Bolinho de Carne 🍖",
+        "imagem": "./images/bolinho-de-carne.png"
+    },
+    {
+        "nome": "Café com Leite ☕🥛",
+        "imagem": "./images/cafe-com-leite.png"
+    },
+    {
+        "nome": "Suco Natural 🥤",
+        "imagem": "./images/suco.png"
+    },
+    {
+        "nome": "Bauru 🥪",
+        "imagem": "./images/bauru.png"
+    }
+]
